@@ -1,7 +1,16 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import "./contact.css";
 
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+    emailjs.sendForm('service_fpo6ij4', 'template_18il508', form.current, 'ZFVLvPlychK45coBG')
+    e.target.reset()
+    };
   return (
     <section className="contact section" id="contact">
         <h2 className="section__title">Get in touch</h2>
@@ -55,7 +64,7 @@ const Contact = () => {
             <div className="contact__content">
                 <h3 className="contact__title">Write me your project</h3>
 
-                <form className="contact__form">
+                <form ref={form} onSubmit={sendEmail} className="contact__form">
                     <div className="contact__form-div">
                         <label className="contact__form-tag">Nome</label>
                         <input type="text" name="name" className="contact__form-input" placeholder='Insira seu nome'/>
@@ -63,12 +72,12 @@ const Contact = () => {
 
                     <div className="contact__form-div">
                         <label className="contact__form-tag">E-mail</label>
-                        <input type="text" name="name" className="contact__form-input" placeholder='Insira seu e-mail'/>
+                        <input type="text" name="email" className="contact__form-input" placeholder='Insira seu e-mail'/>
                     </div>
 
-                    <div className="contact__form-div">
+                    <div className="contact__form-div contact__form-area">
                         <label className="contact__form-tag">Projeto</label>
-                        <textarea name="project" cols="30" rows="10" className="contact__form-input" placeholder='Insira seu projeto'></textarea>
+                        <textarea name="project" cols="30" rows="10" className="contact__form-input" placeholder='Conte-me sobre seu projeto'></textarea>
                     </div>
 
                     <button className="button button--flex">

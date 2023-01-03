@@ -69,4 +69,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### `npm install @emailjs/browser --save` for save API e-mail!
+### Conect API
+
+`npm install @emailjs/browser --save` for save API e-mail!
+
+`npm install @emailjs/browser --save` for save API e-mail!

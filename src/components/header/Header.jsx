@@ -1,53 +1,56 @@
-import React, { useState } from 'react';
+import React, { useLayoutEffect, useState } from "react";
 import "./header.css";
 
 export const Header = () => {
-  /* === chance background Header === */
-  window.addEventListener("scroll", function () {
-    const header = document.querySelector(".header");
-    // when the scroll is higher than 200 viewport height, add the scroll-header class to a tag with the header tag
-    if (this.scrollY >= 80) header.classList.add("scroll-header");
-    else header.classList.remove("scroll-header");
+  const [toggle, setToggle] = useState(false);
 
-    const themeButton = document.getElementById('theme-button')
-    const darkTheme = 'dark-theme'
-    const iconTheme = 'uil-sun'
-  
-    // Previously selected topic (if user selected)
-    const selectedTheme = localStorage.getItem('selected-theme')
-    const selectedIcon = localStorage.getItem('selected-icon')
-  
-    // We obtain the current theme that the interface has by validating the dark-theme class
-    const getCurrentTheme = () => document.body.classList.contains(darkTheme) ? 'dark' : 'light'
-    const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'uil-moon' : 'uil-sun'
-  
-    // We validate if the user previously chose a topic
-    if (selectedTheme) {
-      // If the validation is fulfilled, we ask what the issue was to know if we activated or deactivated the dark
-      document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
-      themeButton.classList[selectedIcon === 'uil-moon' ? 'add' : 'remove'](iconTheme)
-    }
-  
-    // Activate / deactivate the theme manually with the button
-    themeButton.addEventListener('click', () => {
-      // Add or remove the dark / icon theme
-      document.body.classList.toggle(darkTheme)
-      themeButton.classList.toggle(iconTheme)
-      // We save the theme and the current icon that the user chose
-      localStorage.setItem('selected-theme', getCurrentTheme())
-      localStorage.setItem('selected-icon', getCurrentIcon())
-    })
-  });
+  const header = document.querySelector(".header");
+  const themeButton = document.getElementById("theme-button");
 
-  /* === toggle menu === */
-  const [Toggle, showMenu] = useState(false);
+  const darkTheme = "dark-theme";
+  const iconTheme = "uil-sun";
+
+  const getCurrentTheme = () =>
+    document.body.classList.contains(darkTheme) ? "dark" : "light";
+  const getCurrentIcon = () =>
+    themeButton.classList.contains(iconTheme) ? "uil-moon" : "uil-sun";
+
+  useLayoutEffect(() => {
+    window.addEventListener("scroll", function () {
+      if (this.scrollY >= 80) header.classList.add("scroll-header");
+      else header.classList.remove("scroll-header");
+    });
+  }, []);
+
+  useLayoutEffect(() => {
+    themeButton?.addEventListener("click", function () {
+      debugger
+      const selectedTheme = localStorage.getItem("selected-theme");
+      const selectedIcon = localStorage.getItem("selected-icon");
+
+      if (selectedTheme) {
+        document.body.classList[selectedTheme === "dark" ? "add" : "remove"](
+          darkTheme
+        );
+
+        themeButton.classList[selectedIcon === "uil-moon" ? "add" : "remove"](
+          iconTheme
+        );
+      }
+
+      localStorage.setItem("selected-theme", getCurrentTheme());
+      localStorage.setItem("selected-icon", getCurrentIcon());
+    });
+  }, [themeButton]);
 
   return (
-    <header className='header'>
-      <nav className='nav container'>
-        <a href="index.html" className='nav__logo'>Luiz Gustavo Zanoni | DEV</a>
+    <header className="header">
+      <nav className="nav container">
+        <a href="index.html" className="nav__logo">
+          Luiz Gustavo Zanoni | DEV
+        </a>
 
-        <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
+        <div className={toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
             <li className="nav__item">
               <a href="#home" className="nav__link active-link">
@@ -80,24 +83,20 @@ export const Header = () => {
             </li>
           </ul>
 
-          <i class="uil uil-times nav__close" onClick={() => showMenu(!Toggle)}></i>
+          <i className="uil uil-times nav__close" onClick={() => setToggle((t) => !t)}></i>
         </div>
-        
+
         <div className="nav__btns">
-          {/* Theme change button */}
-           <i className="uil uil-moon change-theme" onClick="themeButton"></i>
-
-          <div className="nav__toggle" id="nav__toggle">
-          </div> 
-
+          <i className="uil uil-moon change-theme" id="theme-button"></i>
+          <div className="nav__toggle" id="nav__toggle"></div>
         </div>
 
-        <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
-          <i class="uil uil-apps"></i>
+        <div className="nav__toggle" onClick={() => setToggle((t) => !t)}>
+          <i className="uil uil-apps"></i>
         </div>
       </nav>
     </header>
   );
 };
 
-export default Header
+export default Header;

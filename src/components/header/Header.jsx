@@ -88,7 +88,6 @@ export const Header = () => {
            <i className="uil uil-moon change-theme" onClick="themeButton"></i>
 
           <div className="nav__toggle" id="nav__toggle">
-            <i className="uil uil-apps"></i>
           </div> 
 
         </div>

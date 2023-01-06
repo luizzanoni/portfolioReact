@@ -9,15 +9,15 @@ const Services = () => {
   }
   return (
     <section className="services section" id="services">
-      <h2 className="section__title">Services</h2>
-      <span className="section__subtitle">What i offer</span>
+      <h2 className="section__title">Experiências</h2>
+      <span className="section__subtitle">Services</span>
 
       <div className="services__container container grid">
         {/* Aqui podemos colocar as experiencias(empresas) */}
         <div className="services__content">
           <div>
             <i className="uil uil-web-grid services__icon"></i>
-            <h3 className="services__title">Product <br /> Designer</h3>
+            <h3 className="services__title">M8 <br /> Sistemas</h3>
           </div>
 
           <span className="services__button" onClick={() => toggleTab(1)}>
@@ -29,7 +29,7 @@ const Services = () => {
             <div className="services__modal-content">
               <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-              <h3 className="services__modal-title">Product Designer</h3>
+              <h3 className="services__modal-title">Developer Full-Stack</h3>
               <p className="services__modal-description">Service with more than 3 years of experience.Providing quality work to clients and companies.</p>
 
               <ul className="services__modal-services grid">
@@ -65,7 +65,7 @@ const Services = () => {
         <div className="services__content">
           <div>
             <i className="uil uil-arrow services__icon"></i>
-            <h3 className="services__title">Ui/Ux <br /> Designer</h3>
+            <h3 className="services__title">Unimed <br /> Chapecó</h3>
           </div>
 
           <span className="services__button" onClick={() => toggleTab(2)}>
@@ -76,35 +76,40 @@ const Services = () => {
             <div className="services__modal-content">
               <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-              <h3 className="services__modal-title">Ui/Ux Designer</h3>
-              <p className="services__modal-description">Service with more than 3 years of experience.Providing quality work to clients and companies.</p>
+              <h3 className="services__modal-title">Software Developer</h3>
+              <p className="services__modal-description">Languages Worked: HTML, CSS, JavaScript, React, API's</p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I develop the user interface.</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web page development.</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I create ux element interactions.</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I position your company brand.</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Design and mockups of products for companies.</p>
+                  <p className="services__modal-info">Junho 2022 - Setembro 2022</p>
                 </li>
               </ul>
+
+              <h3 className="services__modal-title">Assistente de Segurança (DPO)</h3>
+              <p className="services__modal-description">Encarregado de Dados (DPO) substituto. Responsável pela implementação
+                                                        e adequação dos processos e tecnologias para a Lei Geral de Proteção de Dados (LGPD).
+              </p>
+
+              <ul className="services__modal-services grid">
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">Jun 2021 - Jun 2022</p>
+                </li>
+              </ul>
+
+              <h3 className="services__modal-title">Técnico de suporte em TI</h3>
+              <p className="services__modal-description">Dar suporte aos usuários dos computadores e microinformática, atendendo aos chamados, 
+                                                        documentando as atividades, mantendo o solicitante informando sobre o andamento da demanda.
+              </p>
+
+              <ul className="services__modal-services grid">
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">Jun 2020 - May 2021</p>
+                </li>
+              </ul>
+
             </div>
           </div>
         </div>
@@ -112,7 +117,7 @@ const Services = () => {
         <div className="services__content">
           <div>
             <i className="uil uil-edit services__icon"></i>
-            <h3 className="services__title">Visual <br /> Designer</h3>
+            <h3 className="services__title">Freelancer <br /> Web</h3>
           </div>
 
           <span className="services__button" onClick={() => toggleTab(3)}>
@@ -124,32 +129,12 @@ const Services = () => {
               <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
               <h3 className="services__modal-title">Visual Designer</h3>
-              <p className="services__modal-description">Service with more than 3 years of experience.Providing quality work to clients and companies.</p>
+              <p className="services__modal-description">Criação de Sistema de Gestão de empresas de pequeno porte, sistema de autenticação.</p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I develop the user interface.</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web page development.</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I create ux element interactions.</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I position your company brand.</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Design and mockups of products for companies.</p>
+                  <p className="services__modal-info">Março 2020 - Junho 2020</p>
                 </li>
               </ul>
             </div>

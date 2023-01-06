@@ -39,6 +39,7 @@ const Footer = () => {
           <a href="https://twitter.com/luiz_gzanoni" className="footer__social-link" target="noreferrer">
             <i class="bx bxl-twitter"></i>
           </a>
+          
         </div>
 
         <span className='footer__copy'>

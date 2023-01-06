@@ -8,39 +8,39 @@ export const Header = () => {
     // when the scroll is higher than 200 viewport height, add the scroll-header class to a tag with the header tag
     if (this.scrollY >= 80) header.classList.add("scroll-header");
     else header.classList.remove("scroll-header");
+
+    const themeButton = document.getElementById('theme-button')
+    const darkTheme = 'dark-theme'
+    const iconTheme = 'uil-sun'
+  
+    // Previously selected topic (if user selected)
+    const selectedTheme = localStorage.getItem('selected-theme')
+    const selectedIcon = localStorage.getItem('selected-icon')
+  
+    // We obtain the current theme that the interface has by validating the dark-theme class
+    const getCurrentTheme = () => document.body.classList.contains(darkTheme) ? 'dark' : 'light'
+    const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'uil-moon' : 'uil-sun'
+  
+    // We validate if the user previously chose a topic
+    if (selectedTheme) {
+      // If the validation is fulfilled, we ask what the issue was to know if we activated or deactivated the dark
+      document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
+      themeButton.classList[selectedIcon === 'uil-moon' ? 'add' : 'remove'](iconTheme)
+    }
+  
+    // Activate / deactivate the theme manually with the button
+    themeButton.addEventListener('click', () => {
+      // Add or remove the dark / icon theme
+      document.body.classList.toggle(darkTheme)
+      themeButton.classList.toggle(iconTheme)
+      // We save the theme and the current icon that the user chose
+      localStorage.setItem('selected-theme', getCurrentTheme())
+      localStorage.setItem('selected-icon', getCurrentIcon())
+    })
   });
 
   /* === toggle menu === */
   const [Toggle, showMenu] = useState(false);
-
-  // const themeButton = document.getElementById('theme-button')
-  // const darkTheme = 'dark-theme'
-  // const iconTheme = 'uil-sun'
-
-  // // Previously selected topic (if user selected)
-  // const selectedTheme = localStorage.getItem('selected-theme')
-  // const selectedIcon = localStorage.getItem('selected-icon')
-
-  // // We obtain the current theme that the interface has by validating the dark-theme class
-  // const getCurrentTheme = () => document.body.classList.contains(darkTheme) ? 'dark' : 'light'
-  // const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'uil-moon' : 'uil-sun'
-
-  // // We validate if the user previously chose a topic
-  // if (selectedTheme) {
-  //   // If the validation is fulfilled, we ask what the issue was to know if we activated or deactivated the dark
-  //   document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
-  //   themeButton.classList[selectedIcon === 'uil-moon' ? 'add' : 'remove'](iconTheme)
-  // }
-
-  // // Activate / deactivate the theme manually with the button
-  // themeButton.addEventListener('click', () => {
-  //   // Add or remove the dark / icon theme
-  //   document.body.classList.toggle(darkTheme)
-  //   themeButton.classList.toggle(iconTheme)
-  //   // We save the theme and the current icon that the user chose
-  //   localStorage.setItem('selected-theme', getCurrentTheme())
-  //   localStorage.setItem('selected-icon', getCurrentIcon())
-  // })
 
   return (
     <header className='header'>
@@ -85,7 +85,7 @@ export const Header = () => {
         
         <div className="nav__btns">
           {/* Theme change button */}
-           <i className="uil uil-moon change-theme" onClick="?????"></i>
+           <i className="uil uil-moon change-theme" onClick="themeButton"></i>
 
           <div className="nav__toggle" id="nav__toggle">
             <i className="uil uil-apps"></i>

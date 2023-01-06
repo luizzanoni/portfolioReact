@@ -10,6 +10,9 @@ export const Header = () => {
     else header.classList.remove("scroll-header");
   });
 
+  /* === toggle menu === */
+  const [Toggle, showMenu] = useState(false);
+
   // const themeButton = document.getElementById('theme-button')
   // const darkTheme = 'dark-theme'
   // const iconTheme = 'uil-sun'
@@ -38,9 +41,6 @@ export const Header = () => {
   //   localStorage.setItem('selected-theme', getCurrentTheme())
   //   localStorage.setItem('selected-icon', getCurrentIcon())
   // })
-
-  /* === toggle menu === */
-  const [Toggle, showMenu] = useState(false);
 
   return (
     <header className='header'>
@@ -85,7 +85,7 @@ export const Header = () => {
         
         <div className="nav__btns">
           {/* Theme change button */}
-           <i className="uil uil-moon change-theme" onClick={() => showMenu(!Toggle)}></i>
+           <i className="uil uil-moon change-theme" onClick="?????"></i>
 
           <div className="nav__toggle" id="nav__toggle">
             <i className="uil uil-apps"></i>

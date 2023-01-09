@@ -4,44 +4,50 @@ import "./header.css";
 export const Header = () => {
   const [toggle, setToggle] = useState(false);
 
-  const header = document.querySelector(".header");
-  const themeButton = document.getElementById("theme-button");
+  const toggleTheme = () => {
+    alert("Aguarde... Em fase de construção!")
+  }
 
-  const darkTheme = "dark-theme";
-  const iconTheme = "uil-sun";
+  // const header = document.querySelector(".header");
+  // const themeButton = document.getElementById("theme-button");
 
-  const getCurrentTheme = () =>
-    document.body.classList.contains(darkTheme) ? "dark" : "light";
-  const getCurrentIcon = () =>
-    themeButton.classList.contains(iconTheme) ? "uil-moon" : "uil-sun";
+  // const darkTheme = "dark-theme";
+  // const iconTheme = "uil-sun";
 
-  useLayoutEffect(() => {
-    window.addEventListener("scroll", function () {
-      if (this.scrollY >= 80) header.classList.add("scroll-header");
-      else header.classList.remove("scroll-header");
-    });
-  }, []);
+  // const getCurrentTheme = () =>
+  //   document.body.classList.contains(darkTheme) ? "dark" : "light";
+  // const getCurrentIcon = () =>
+  //   themeButton.classList.contains(iconTheme) ? "uil-moon" : "uil-sun";
 
-  useLayoutEffect(() => {
-    themeButton?.addEventListener("click", function () {
-      debugger
-      const selectedTheme = localStorage.getItem("selected-theme");
-      const selectedIcon = localStorage.getItem("selected-icon");
+  // useLayoutEffect(() => {
+  //   window.addEventListener("scroll", function () {
+  //     if (this.scrollY >= 80) header.classList.add("scroll-header");
+  //     else header.classList.remove("scroll-header");
+  //   });
+  // }, []);
 
-      if (selectedTheme) {
-        document.body.classList[selectedTheme === "dark" ? "add" : "remove"](
-          darkTheme
-        );
+  // debugger
 
-        themeButton.classList[selectedIcon === "uil-moon" ? "add" : "remove"](
-          iconTheme
-        );
-      }
+  // useLayoutEffect(() => {
+  //   themeButton?.addEventListener("click", function () {
+  //     debugger
+  //     const selectedTheme = localStorage.getItem("selected-theme");
+  //     const selectedIcon = localStorage.getItem("selected-icon");
 
-      localStorage.setItem("selected-theme", getCurrentTheme());
-      localStorage.setItem("selected-icon", getCurrentIcon());
-    });
-  }, [themeButton]);
+  //     if (selectedTheme) {
+  //       document.body.classList[selectedTheme === "dark" ? "add" : "remove"](
+  //         darkTheme
+  //       );
+
+  //       themeButton.classList[selectedIcon === "uil-moon" ? "add" : "remove"](
+  //         iconTheme
+  //       );
+  //     }
+
+  //     localStorage.setItem("selected-theme", getCurrentTheme());
+  //     localStorage.setItem("selected-icon", getCurrentIcon());
+  //   });
+  // }, [themeButton]);
 
   return (
     <header className="header">
@@ -87,7 +93,8 @@ export const Header = () => {
         </div>
 
         <div className="nav__btns">
-          <i className="uil uil-moon change-theme" id="theme-button"></i>
+          <i className="uil uil-moon change-theme" onClick={() => toggleTheme()}></i>
+          {/* <a href="#" className="nav__btns" onClick={() => toggleTheme()}>Dark</a> */}
           <div className="nav__toggle" id="nav__toggle"></div>
         </div>
 

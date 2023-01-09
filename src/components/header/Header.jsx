@@ -22,8 +22,6 @@ export const Header = () => {
     });
   }, []);
 
-  debugger
-
   useLayoutEffect(() => {
     themeButton?.addEventListener("click", function () {
       debugger

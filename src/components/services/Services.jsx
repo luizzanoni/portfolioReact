@@ -14,6 +14,8 @@ const Services = () => {
 
       <div className="services__container container grid">
         {/* Aqui podemos colocar as experiencias(empresas) */}
+
+        {/* M8 Sistemas */}
         <div className="services__content">
           <div>
             <i className="uil uil-web-grid services__icon"></i>
@@ -30,7 +32,7 @@ const Services = () => {
               <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
               <h3 className="services__modal-title">Developer Full-Stack</h3>
-              <p className="services__modal-description">HTML, CSS, dotNET, JavaScript, React, API's, ASP.NET Core, MVC, jQuery</p>
+              <p className="services__modal-description">Languages Worked: HTML, CSS, dotNET, JavaScript, React, API's, ASP.NET Core, MVC, jQuery</p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
@@ -42,6 +44,7 @@ const Services = () => {
           </div>
         </div>
 
+        {/* Unimed */}
         <div className="services__content">
           <div>
             <i className="uil uil-arrow services__icon"></i>
@@ -94,6 +97,7 @@ const Services = () => {
           </div>
         </div>
 
+        {/* Freelancer */}
         <div className="services__content">
           <div>
             <i className="uil uil-edit services__icon"></i>

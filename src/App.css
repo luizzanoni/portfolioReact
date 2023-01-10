@@ -9,11 +9,11 @@
   /* === COLORS === */
   --hue: 0;
   --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
+  --title-color: hsl(var(--hue), var(--sat), 98%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: #fff;
+  --text-color: hsl(var(--hue), var(--sat), 98%);
+  --body-color: hsl(var(--hue), var(--sat), 20%);
+  --container-color: hsl(var(--hue), var(--sat), 46%);
 
   /* === font and typography === */
   --body-font: "Poppins", sans-serif;
@@ -146,8 +146,8 @@ img {
 /* === BUTTON === */
 .button {
   display: inline-block;
-  background-color: var(--title-color);
-  color: var(--container-color);
+  background-color: var(--container-color);
+  color: var(--title-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
@@ -155,6 +155,7 @@ img {
 
 .button:hover {
   background-color: var(--title-color-dark);
+  transition: 0.4s;
 }
 
 .button__icon {

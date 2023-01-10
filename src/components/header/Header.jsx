@@ -52,14 +52,14 @@ export const Header = () => {
   return (
     <header className="header">
       <nav className="nav container">
-        <a href="index.html" className="nav__logo">
+        <a href="#home" className="nav__logo">
           Luiz Gustavo Zanoni | DEV
         </a>
 
         <div className={toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
             <li className="nav__item">
-              <a href="#home" className="nav__link active-link">
+              <a href="#home" className="nav__link">
                 <i className="iul uil-estate nav__icon"></i> Home
               </a>
             </li>

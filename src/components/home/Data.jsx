@@ -58,8 +58,8 @@ export const Data = () => {
       <h3 className="home__subtitle">Software Developer</h3>
       <p className="home__description">
         Entusiasmado por tecnologia e inovação, iniciei o mundo da programação em Python
-        e desenvolvendo aplicações para facilitar o dia-a-dia. Com o passar do tempo comecei
-        a estudar Javascript e Typescript, atualmente atuo desenvolvendo interfaces como
+        e desenvolvendo aplicações para aprender mais sobre o mundo dos PCs. Com o passar 
+        do tempo comecei a estudar React e JS. Atualmente atuo como programador 
         Back-End utilizando C# e MVC, avançando aos poucos como programador FullStack.
       </p>
 

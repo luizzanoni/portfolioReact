@@ -18,8 +18,8 @@ export const About = () => {
 
           <p className="about__description">
             Considero-me uma pessoa proativa com fome de conhecimento, sempre buscando melhorar 
-            meu nível técnico e pessoal, sou apaixonado por ensinar, então, no que eu puder 
-            ajudar alguém, mesmo que seja pouco, já fico extramente feliz.
+            meu nível técnico e pessoal, gosto muito de ensinar pessoas que estão no início da carreira, 
+            então, no que eu puder ajudar, mesmo que seja pouco, já fico extramente feliz.
           </p>
 
           <a download="" href={CV} className="button button--flex">

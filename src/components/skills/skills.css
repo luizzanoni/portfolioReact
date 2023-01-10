@@ -6,7 +6,7 @@
 
 .skills__content {
   background-color: var(--container-solor);
-  border: 3px solid rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(0, 0, 0, 0.4);
   padding: 2rem 4rem;
   border-radius: 1.25rem;
 }

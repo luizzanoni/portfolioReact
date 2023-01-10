@@ -1,4 +1,4 @@
-import React, { useLayoutEffect, useState } from "react";
+import React, { useState } from "react";
 import "./header.css";
 
 export const Header = () => {
@@ -7,6 +7,10 @@ export const Header = () => {
   const toggleTheme = () => {
     alert("Aguarde... Em fase de construção!")
   }
+
+  // Inicio da tentativa de dark mode
+  // quando rever esta demanda, utilizar este import
+  // import React, { useLayoutEffect, useState } from "react";
 
   // const header = document.querySelector(".header");
   // const themeButton = document.getElementById("theme-button");

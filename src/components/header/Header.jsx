@@ -4,6 +4,7 @@ import "./header.css";
 export const Header = () => {
   const [toggle, setToggle] = useState(false);
 
+  // alert de button em construção
   const toggleTheme = () => {
     alert("Aguarde... Em fase de construção!")
   }

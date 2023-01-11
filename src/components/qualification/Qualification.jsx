@@ -113,10 +113,10 @@ const Qualification = () => {
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">C# COMPLETO Programação Orientada a Objetos + Projetos</h3>
-                <span className="qualification__subtitle">Udemy</span>
+                <h3 className="qualification__title">DPO & LGPD na Prática</h3>
+                <span className="qualification__subtitle">KA Solution</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>38 Horas
+                  <i className="uil uil-calendar-alt"></i>16 Horas
                 </div>
               </div>
 
@@ -136,17 +136,17 @@ const Qualification = () => {
                 <h3 className="qualification__title">Privacy e Data Protection Essentials</h3>
                 <span className="qualification__subtitle">IDESP</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 25 Horas
+                  <i className="uil uil-calendar-alt"></i> 20 Horas
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">DPO & LGPD na Prática </h3>
-                <span className="qualification__subtitle">KA Solution</span>
+                <h3 className="qualification__title">C# COMPLETO Programação Orientada a Objetos + Projetos</h3>
+                <span className="qualification__subtitle">Udemy</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>60 Horas
+                  <i className="uil uil-calendar-alt"></i>20 Horas
                 </div>
               </div>
 

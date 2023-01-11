@@ -12,6 +12,10 @@ export const Social = () => {
         <i class="uil uil-whatsapp"></i>
       </a>
 
+      <a href="https://www.linkedin.com/in/luizgustavozanoni/" className="home__social-icon" target="noreferrer">
+        <i class="uil uil-linkedin"></i>
+      </a>
+
       <a href="https://github.com/luizzanoni" className="home__social-icon" target="noreferrer">
         <i class="uil uil-github-alt"></i>
       </a>
@@ -19,7 +23,7 @@ export const Social = () => {
       <a href="https://twitter.com/luiz_gzanoni" className="home__social-icon" target="noreferrer">
         <i class="uil uil-twitter-alt"></i>
       </a>
-      
+    
     </div>
   )
 }

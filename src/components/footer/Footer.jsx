@@ -32,6 +32,10 @@ const Footer = () => {
             <i class="bx bxl-whatsapp"></i>
           </a>
 
+          <a href="https://www.linkedin.com/in/luizgustavozanoni/" className="footer__social-link" target="noreferrer">
+            <i class="bx bxl-linkedin"></i>
+          </a>
+
           <a href="https://github.com/luizzanoni" className="footer__social-link" target="noreferrer">
             <i class="bx bxl-github"></i>
           </a>
@@ -39,7 +43,7 @@ const Footer = () => {
           <a href="https://twitter.com/luiz_gzanoni" className="footer__social-link" target="noreferrer">
             <i class="bx bxl-twitter"></i>
           </a>
-          
+
         </div>
 
         <span className='footer__copy'>

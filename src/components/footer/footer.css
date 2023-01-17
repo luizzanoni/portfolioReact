@@ -19,6 +19,7 @@
 
 .footer__link:hover {
   color: var(--title-color-dark);
+  transition: 0.4s;
 }
 
 .footer__list {
@@ -41,6 +42,7 @@
   padding: 0.4rem;
   border-radius: 0.5rem;
   display: inline-flex;
+  transition: 0.4s;
 }
 
 .footer__social-link:hover {

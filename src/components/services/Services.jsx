@@ -32,7 +32,7 @@ const Services = () => {
               <i onClick={() => toggleTab(0)} className="uil uil-times services__button-close"></i>
 
               <h3 className="services__modal-title">Developer Full-Stack</h3>
-              <p className="services__modal-description">Languages Worked: HTML, CSS, dotNET, JavaScript, React, API's, ASP.NET Core, MVC, jQuery</p>
+              <p className="services__modal-description">Languages Worked: C#, JavaScript, React, API's, ASP.NET Core, MVC, jQuery e HTML, CSS</p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
@@ -60,7 +60,7 @@ const Services = () => {
               <i onClick={() => toggleTab(0)} className="uil uil-times services__button-close"></i>
 
               <h3 className="services__modal-title">Software Developer</h3>
-              <p className="services__modal-description">Languages Worked: HTML, CSS, JavaScript, React, API's</p>
+              <p className="services__modal-description">Languages Worked: JavaScript, React, API's e HTML, CSS</p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">

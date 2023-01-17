@@ -99,7 +99,7 @@ export const Header = () => {
 
         <div className="nav__button">
           <a className="nav__button-icon" onClick={() => toggleTheme()} target="noreferrer">
-            <i class="uil uil-moon"></i>
+            <i class="uil uil-sun"></i>
           </a>
         </div>
 

@@ -13,7 +13,6 @@ const Services = () => {
       <span className="section__subtitle">Services</span>
 
       <div className="services__container container grid">
-        {/* Aqui podemos colocar as experiencias(empresas) */}
 
         {/* M8 Sistemas */}
         <div className="services__content">

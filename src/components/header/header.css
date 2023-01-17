@@ -55,6 +55,25 @@
   box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 }
 
+/* button dark mode */
+
+.nav__button {
+  display: grid;
+  grid-template-columns: max-content;
+  row-gap: 1rem;
+}
+
+.nav__button-icon {
+  font-size: 1.25rem;
+  color: var(--title-color);
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.nav__button-icon:hover {
+  color: var(--title-color-dark);
+}
+
 /* === breackpoints === */
 /* for medium device */
 @media screen and (max-width: 768px) {

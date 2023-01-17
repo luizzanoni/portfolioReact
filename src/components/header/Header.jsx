@@ -97,10 +97,10 @@ export const Header = () => {
           <i className="uil uil-times nav__close" onClick={() => setToggle((t) => !t)}></i>
         </div>
 
-        <div className="nav__btns">
-          <i className="uil uil-moon change-theme" onClick={() => toggleTheme()}></i>
-          {/* <a href="#" className="nav__btns" onClick={() => toggleTheme()}>Dark</a> */}
-          <div className="nav__toggle" id="nav__toggle"></div>
+        <div className="nav__button">
+          <a className="nav__button-icon" onClick={() => toggleTheme()} target="noreferrer">
+            <i class="uil uil-moon"></i>
+          </a>
         </div>
 
         <div className="nav__toggle" onClick={() => setToggle((t) => !t)}>

@@ -76,6 +76,11 @@
   cursor: pointer;
 }
 
+.services__button-close:hover {
+  transition: 0.4s;
+  color: var(--title-color-dark);
+}
+
 .services__button-title,
 .services__modal-description {
   text-align: center;

@@ -2,6 +2,11 @@ import React, { useState } from "react";
 import "./header.css";
 
 export const Header = () => {
+  window.addEventListener("scroll", function () {
+    const header = document.querySelector(".header");
+    if (this.scrollY >= 80) header.classList.add("scroll-header");
+    else header.classList.remove("scroll-header")
+  })
   const [toggle, setToggle] = useState(false);
 
   // alert de button em construção

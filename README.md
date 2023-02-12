@@ -72,3 +72,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### Install API (EmailJS)
 
 `npm install @emailjs/browser --save` for save API e-mail!
+
+
+<!-- Um pouco sobre a história.
+
+Dado inicio deste projeto final do semestre de 2022/2 pois gostaria de atualizar meus conceitos sobre React e pelo fato de que daqui a alguns dias comecarei a utulizar o mesmo para codar o novo sistema.
+Para entender a estrutura foram necessários algumas horas pois não tinha muito conhecimento front para realizar o que gostaria. Após isso, defini um layout para execução me baseando em vídeos no Youtube.
+Foram gastas aproximadamente 34 horas neste projeto e algumas ajudas de colegas.
+Obrigado pessoal.
+
+Deixei comentado para quem chegou até, saber que ainda tinha um easter egg
+
+11/fev/22 22:35
+Luiz Gustavo Zanoni -->

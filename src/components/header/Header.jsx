@@ -14,51 +14,6 @@ export const Header = () => {
     alert("Aguarde... Em fase de construção!")
   }
 
-  // Inicio da tentativa de dark mode
-  // quando rever esta demanda, utilizar este import
-  // import React, { useLayoutEffect, useState } from "react";
-
-  // const header = document.querySelector(".header");
-  // const themeButton = document.getElementById("theme-button");
-
-  // const darkTheme = "dark-theme";
-  // const iconTheme = "uil-sun";
-
-  // const getCurrentTheme = () =>
-  //   document.body.classList.contains(darkTheme) ? "dark" : "light";
-  // const getCurrentIcon = () =>
-  //   themeButton.classList.contains(iconTheme) ? "uil-moon" : "uil-sun";
-
-  // useLayoutEffect(() => {
-  //   window.addEventListener("scroll", function () {
-  //     if (this.scrollY >= 80) header.classList.add("scroll-header");
-  //     else header.classList.remove("scroll-header");
-  //   });
-  // }, []);
-
-  // debugger
-
-  // useLayoutEffect(() => {
-  //   themeButton?.addEventListener("click", function () {
-  //     debugger
-  //     const selectedTheme = localStorage.getItem("selected-theme");
-  //     const selectedIcon = localStorage.getItem("selected-icon");
-
-  //     if (selectedTheme) {
-  //       document.body.classList[selectedTheme === "dark" ? "add" : "remove"](
-  //         darkTheme
-  //       );
-
-  //       themeButton.classList[selectedIcon === "uil-moon" ? "add" : "remove"](
-  //         iconTheme
-  //       );
-  //     }
-
-  //     localStorage.setItem("selected-theme", getCurrentTheme());
-  //     localStorage.setItem("selected-icon", getCurrentIcon());
-  //   });
-  // }, [themeButton]);
-
   return (
     <header className="header">
       <nav className="nav container">

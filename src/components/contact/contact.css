@@ -12,6 +12,10 @@
   margin-bottom: var(--mb-1-5);
 }
 
+.button--flex {
+  margin-left: 38px;
+}
+
 .contact__info {
   display: grid;
   row-gap: 1rem;
@@ -128,6 +132,10 @@
 
   .contact__form {
     margin: 0 auto;
+  }
+
+  .button--flex {
+    margin-left: 38px;
   }
 }
 

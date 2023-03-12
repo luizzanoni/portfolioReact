@@ -149,7 +149,7 @@ img {
   background-color: var(--container-color);
   color: var(--title-color);
   padding: 1.25rem 2rem;
-  border-radius: 1rem;
+  border-radius: 2rem;
   font-weight: var(--font-medium);
 }
 

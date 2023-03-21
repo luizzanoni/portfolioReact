@@ -10,9 +10,9 @@ export const Header = () => {
   const [toggle, setToggle] = useState(false);
 
   // alert de button em construção
-  const toggleTheme = () => {
-    alert("Aguarde... Em fase de construção!")
-  }
+  // const toggleTheme = () => {
+  //   alert("Aguarde... Em fase de construção!")
+  // }
 
   return (
     <header className="header">
@@ -57,7 +57,7 @@ export const Header = () => {
           <i className="uil uil-times nav__close" onClick={() => setToggle((t) => !t)}></i>
         </div>
 
-        <div className="nav__button">
+        {/* <div className="nav__button">
           <a className="nav__button-icon" onClick={() => toggleTheme()} target="noreferrer">
             <i class="uil uil-sun"></i>
           </a>
@@ -65,7 +65,7 @@ export const Header = () => {
 
         <div className="nav__toggle" onClick={() => setToggle((t) => !t)}>
           <i className="uil uil-apps"></i>
-        </div>
+        </div> */}
       </nav>
     </header>
   );

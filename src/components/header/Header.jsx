@@ -61,11 +61,11 @@ export const Header = () => {
           <a className="nav__button-icon" onClick={() => toggleTheme()} target="noreferrer">
             <i class="uil uil-sun"></i>
           </a>
-        </div>
+        </div> */}
 
         <div className="nav__toggle" onClick={() => setToggle((t) => !t)}>
           <i className="uil uil-apps"></i>
-        </div> */}
+        </div>
       </nav>
     </header>
   );

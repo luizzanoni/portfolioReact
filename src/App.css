@@ -76,7 +76,7 @@ body::-webkit-scrollbar-thumb {
   border: 2px solid var(--body-color);
 }
 
-/* === Firefox === */
+
 body {
   scrollbar-width: thin;
   scrollbar-color: var(--text-color) var(--body-color);

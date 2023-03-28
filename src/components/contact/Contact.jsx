@@ -80,7 +80,7 @@ const Contact = () => {
               <textarea name="project" cols="30" rows="10" className="contact__form-input" placeholder='Conte-me sobre seu projeto'></textarea>
             </div>
 
-            <button className="button button--flex">
+            <button className="button__contact button--flex--contact">
               Envie uma mensagem!
               <svg
                 class="button__icon"

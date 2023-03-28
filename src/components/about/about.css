@@ -44,6 +44,30 @@
   margin-bottom: var(--mb-2-5);
 }
 
+/* === BUTTON === */
+.button {
+  display: inline-block;
+  background-color: var(--container-color);
+  color: var(--title-color);
+  padding: 1.25rem 2rem;
+  border-radius: 2rem;
+  font-weight: var(--font-medium);
+}
+
+.button:hover {
+  background-color: var(--title-color-dark);
+  transition: 0.4s;
+}
+
+.button__icon {
+  margin-left: var(--mb-0-5);
+}
+
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+}
+
 /* for large devices */
 @media screen and (max-width: 992px) {
   .about__container {
@@ -52,7 +76,10 @@
   }
 
   .about__img {
-    width: 220px;
+    width: 300px;
+    display: flex;
+    align-content: center;
+    margin: auto;
   }
 
   .about__box {

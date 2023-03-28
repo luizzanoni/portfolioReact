@@ -12,10 +12,6 @@
   margin-bottom: var(--mb-1-5);
 }
 
-.button--flex {
-  margin-left: 38px;
-}
-
 .contact__info {
   display: grid;
   row-gap: 1rem;
@@ -111,6 +107,31 @@
   resize: none;
 }
 
+/* === BUTTON === */
+.button__contact {
+  display: inline-block;
+  background-color: var(--container-color);
+  color: var(--title-color);
+  padding: 1.25rem 2rem;
+  border-radius: 2rem;
+  font-weight: var(--font-medium);
+}
+
+.button__contact:hover {
+  background-color: var(--title-color-dark);
+  transition: 0.4s;
+}
+
+.button__icon {
+  margin-left: var(--mb-0-5);
+}
+
+.button--flex--contact {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 38px;
+}
+
 /* === breakpoints === */
 /* for large devices */
 @media screen and (max-width: 992px) {
@@ -132,10 +153,6 @@
 
   .contact__form {
     margin: 0 auto;
-  }
-
-  .button--flex {
-    margin-left: 38px;
   }
 }
 

@@ -165,29 +165,6 @@ img {
   gap: 1.5rem;
 }
 
-/* === BUTTON === */
-.button {
-  display: inline-block;
-  background-color: var(--container-color);
-  color: var(--title-color);
-  padding: 1.25rem 2rem;
-  border-radius: 2rem;
-  font-weight: var(--font-medium);
-}
-
-.button:hover {
-  background-color: var(--title-color-dark);
-  transition: 0.4s;
-}
-
-.button__icon {
-  margin-left: var(--mb-0-5);
-}
-
-.button--flex {
-  display: inline-flex;
-  align-items: center;
-}
 
 /* === breakpoints === */
 /* for large devices */

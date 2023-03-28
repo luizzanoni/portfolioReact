@@ -109,11 +109,22 @@
   font-weight: var(--font-medium);
   margin-right: var(--mb-0-25);
   margin-left: 2px;
+  transition: 0.4s;
+}
+
+.home__scroll-name:hover {
+  color: var(--title-color-dark);
+  transition: 0.4s;
 }
 
 .home__scroll-arrow {
   font-size: 1.25rem;
   color: var(--title-color);
+}
+
+.home__scroll-arrow:hover {
+  color: var(--title-color-dark);
+  transition: 0.4s;
 }
 
 /* for large devices */

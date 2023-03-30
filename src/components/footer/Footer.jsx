@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
 
         <span className='footer__copy'>
-          &#169; 2023 Crypticalcoder. All rigths reserved
+          &#169; 2023 Luiz Gustavo Zanoni. All rigths reserved.
         </span>
       </div>
     </footer>

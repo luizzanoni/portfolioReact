@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
 
         <span className='footer__copy'>
-          &#169; 2023 Luiz Gustavo Zanoni | All rigths reserved.
+          &#169; 2023 Luiz Gustavo Zanoni | Todos os direitos reservados.
         </span>
       </div>
     </footer>

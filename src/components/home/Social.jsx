@@ -8,7 +8,7 @@ export const Social = () => {
         <i class="uil uil-instagram"></i>
       </a>
 
-      <a href="https://wa.me/5549999241385" className="home__social-icon" target="noreferrer">
+      <a href="https://wa.me/5549988107337" className="home__social-icon" target="noreferrer">
         <i class="uil uil-whatsapp"></i>
       </a>
 

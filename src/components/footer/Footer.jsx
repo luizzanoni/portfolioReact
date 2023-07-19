@@ -28,7 +28,7 @@ const Footer = () => {
             <i class="bx bxl-instagram"></i>
           </a>
 
-          <a href="https://wa.me/5549999241385" className="footer__social-link" target="noreferrer">
+          <a href="https://wa.me/5549988107337" className="footer__social-link" target="noreferrer">
             <i class="bx bxl-whatsapp"></i>
           </a>
 

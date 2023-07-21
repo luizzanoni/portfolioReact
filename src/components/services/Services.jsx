@@ -20,7 +20,7 @@ const Services = () => {
             <h3 className="services__title">Interfoc <br /> Sistemas</h3>
           </div>
 
-          <span className="services__button" onClick={() => toggleTab(1)}>
+          <span className="services__button" onClick={() => toggleTab(4)}>
             View More
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
@@ -37,12 +37,13 @@ const Services = () => {
                 - Desenvolvimento de novas funcionalidades <br />
                 - Expertise em sistemas de previdência <br />
                 <br />
-                Competências: SQL · GitFlow · PostgreSQL · API REST · Git · C# · HTML5 · CSS · JavaScript · .NET Framework</p>
+                Competências: SQL · GitFlow · PostgreSQL · API REST · Git · C# · HTML5 · CSS · JavaScript · .NET Framework
+              </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Setembro 2022 - Presente</p>
+                  <p className="services__modal-info">Maio 2023 - Presente</p>
                 </li>
               </ul>
             </div>
@@ -71,7 +72,7 @@ const Services = () => {
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Setembro 2022 - Presente</p>
+                  <p className="services__modal-info">Setembro 2022 - Abril 2023</p>
                 </li>
               </ul>
             </div>

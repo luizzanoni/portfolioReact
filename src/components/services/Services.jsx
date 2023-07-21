@@ -13,6 +13,41 @@ const Services = () => {
       <span className="section__subtitle">Services</span>
 
       <div className="services__container container grid">
+        {/* Interfoc */}
+        <div className="services__content">
+          <div>
+            <i className="uil uil-web-grid services__icon"></i>
+            <h3 className="services__title">Interfoc <br /> Sistemas</h3>
+          </div>
+
+          <span className="services__button" onClick={() => toggleTab(1)}>
+            View More
+            <i className="uil uil-arrow-right services__button-icon"></i>
+          </span>
+
+          <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"} onClick={() => toggleTab(0)}>
+            <div className="services__modal-content">
+              <i onClick={() => toggleTab(0)} className="uil uil-times services__button-close"></i>
+
+              <h3 className="services__modal-title">Developer Full-Stack</h3>
+              <p className="services__modal-description">
+                - Correção de Bugs <br />
+                - Manutenção de sistemas <br />
+                - Sustentação de Sistemas <br />
+                - Desenvolvimento de novas funcionalidades <br />
+                - Expertise em sistemas de previdência <br />
+                <br />
+                Competências: SQL · GitFlow · PostgreSQL · API REST · Git · C# · HTML5 · CSS · JavaScript · .NET Framework</p>
+
+              <ul className="services__modal-services grid">
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">Setembro 2022 - Presente</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
         {/* M8 Sistemas */}
         <div className="services__content">

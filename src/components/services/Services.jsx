@@ -67,7 +67,15 @@ const Services = () => {
               <i onClick={() => toggleTab(0)} className="uil uil-times services__button-close"></i>
 
               <h3 className="services__modal-title">Developer Full-Stack</h3>
-              <p className="services__modal-description">Languages Worked: C#, JavaScript, React, API's, ASP.NET Core, MVC, jQuery e HTML, CSS</p>
+              <p className="services__modal-description">
+                - Correção de Bugs
+                - Manutenção de sistemas
+                - Sustentação de Sistemas
+                - Desenvolvimento de novas funcionalidades
+                - Expertise em sistemas de previdência
+
+                Competências: SQL · GitFlow · Azure DevOps Server · API REST · Git · C# · HTML5 · CSS · JavaScript · .NET Framework e ASP NET MVC
+              </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
@@ -95,7 +103,14 @@ const Services = () => {
               <i onClick={() => toggleTab(0)} className="uil uil-times services__button-close"></i>
 
               <h3 className="services__modal-title">Software Developer</h3>
-              <p className="services__modal-description">Languages Worked: JavaScript, React, API's e HTML, CSS</p>
+              <p className="services__modal-description">
+                - Correção de Bugs
+                - Manutenção de sistemas
+                - Desenvolvimento de novas funcionalidades
+                - Expertise em sistemas de previdência
+
+                Competências: SQL · GitFlow · Git · C# · HTML5 · Python · JavaScript
+                </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
@@ -105,8 +120,9 @@ const Services = () => {
               </ul>
 
               <h3 className="services__modal-title">Assistente de Segurança (DPO)</h3>
-              <p className="services__modal-description">Encarregado de Dados (DPO) substituto. Responsável pela implementação
-                                                        e adequação dos processos e tecnologias para a Lei Geral de Proteção de Dados (LGPD).
+              <p className="services__modal-description">
+                Encarregado de Dados (DPO) substituto. Responsável pela implementação
+                e adequação dos processos e tecnologias para a Lei Geral de Proteção de Dados (LGPD).
               </p>
 
               <ul className="services__modal-services grid">
@@ -117,8 +133,9 @@ const Services = () => {
               </ul>
 
               <h3 className="services__modal-title">Técnico de suporte em TI</h3>
-              <p className="services__modal-description">Dar suporte aos usuários dos computadores e microinformática, atendendo aos chamados, 
-                                                        documentando as atividades, mantendo o solicitante informando sobre o andamento da demanda.
+              <p className="services__modal-description">
+                Dar suporte aos usuários dos computadores e microinformática, atendendo aos chamados, 
+                documentando as atividades, mantendo o solicitante informando sobre o andamento da demanda.
               </p>
 
               <ul className="services__modal-services grid">

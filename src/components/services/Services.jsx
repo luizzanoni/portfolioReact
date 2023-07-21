@@ -57,23 +57,23 @@ const Services = () => {
             <h3 className="services__title">M8 <br /> Sistemas</h3>
           </div>
 
-          <span className="services__button" onClick={() => toggleTab(1)}>
+          <span className="services__button" onClick={() => toggleTab(3)}>
             View More
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
 
-          <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"} onClick={() => toggleTab(0)}>
+          <div className={toggleState === 3 ? "services__modal active-modal" : "services__modal"} onClick={() => toggleTab(0)}>
             <div className="services__modal-content">
               <i onClick={() => toggleTab(0)} className="uil uil-times services__button-close"></i>
 
               <h3 className="services__modal-title">Developer Full-Stack</h3>
               <p className="services__modal-description">
-                - Correção de Bugs
-                - Manutenção de sistemas
-                - Sustentação de Sistemas
-                - Desenvolvimento de novas funcionalidades
-                - Expertise em sistemas de previdência
-
+                - Correção de Bugs<br />
+                - Manutenção de sistemas<br />
+                - Sustentação de Sistemas<br />
+                - Desenvolvimento de novas funcionalidades<br />
+                - Expertise em sistemas de previdência<br />
+                <br />
                 Competências: SQL · GitFlow · Azure DevOps Server · API REST · Git · C# · HTML5 · CSS · JavaScript · .NET Framework e ASP NET MVC
               </p>
 
@@ -104,11 +104,11 @@ const Services = () => {
 
               <h3 className="services__modal-title">Software Developer</h3>
               <p className="services__modal-description">
-                - Correção de Bugs
-                - Manutenção de sistemas
-                - Desenvolvimento de novas funcionalidades
-                - Expertise em sistemas de previdência
-
+                - Correção de Bugs<br />
+                - Manutenção de sistemas<br />
+                - Desenvolvimento de novas funcionalidades<br />
+                - Expertise em sistemas de previdência<br />
+                <br />
                 Competências: SQL · GitFlow · Git · C# · HTML5 · Python · JavaScript
                 </p>
 
@@ -156,11 +156,11 @@ const Services = () => {
             <h3 className="services__title">Freelancer <br /> Web</h3>
           </div>
 
-          <span className="services__button" onClick={() => toggleTab(3)}>
+          <span className="services__button" onClick={() => toggleTab(1)}>
             View More <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
 
-          <div className={toggleState === 3 ? "services__modal active-modal" : "services__modal"} onClick={() => toggleTab(0)}>
+          <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"} onClick={() => toggleTab(0)}>
             <div className="services__modal-content">
               <i onClick={() => toggleTab(0)} className="uil uil-times services__button-close"></i>
 

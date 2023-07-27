@@ -76,12 +76,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 <!-- Um pouco sobre a história.
 
-Dado inicio deste projeto final do semestre de 2022/2 pois gostaria de atualizar meus conceitos sobre React e pelo fato de que daqui a alguns dias comecarei a utulizar o mesmo para codar o novo sistema.
-Para entender a estrutura foram necessários algumas horas pois não tinha muito conhecimento front para realizar o que gostaria. Após isso, defini um layout para execução me baseando em vídeos no Youtube.
-Foram gastas aproximadamente 34 horas neste projeto e algumas ajudas de colegas (Leonardo), trabalha comigo e é front, ajudou muito no inicio para entender front e como toda a estrutura funcionava.
-Obrigado pessoal.
-
-Deixei comentado para quem chegou até, saber que ainda tinha um easter egg hahahah
+Dado o início deste projeto final do semestre de 2022/2, decidi atualizar meus conhecimentos sobre React, uma vez que em breve o utilizarei para desenvolver o novo sistema. Inicialmente, enfrentei algumas dificuldades na compreensão da estrutura, uma vez que não possuía amplo conhecimento em desenvolvimento front-end. Após algumas horas de estudo e pesquisa, consegui definir um layout adequado, buscando inspiração em vídeos no Youtube.
+Ao longo das aproximadamente 34 horas dedicadas a este projeto, contei com a valiosa ajuda de um colega chamado Leonardo, que é especialista em front-end e trabalha comigo. Sua orientação foi fundamental para que eu compreendesse a estrutura do front-end e como tudo funcionava.
+Agradeço imensamente a todos os envolvidos neste processo.
+(E se você chegou até aqui, saiba que deixei um easter egg comentado, hehehe.)
 
 11/fev/22 22:35
 Luiz Gustavo Zanoni -->

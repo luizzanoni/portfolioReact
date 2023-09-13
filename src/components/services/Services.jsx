@@ -16,7 +16,7 @@ const Services = () => {
         {/* Interfoc */}
         <div className="services__content">
           <div>
-            <i className="uil uil-web-grid services__icon"></i>
+            <i className="uil uil-wallet services__icon"></i>
             <h3 className="services__title">Interfoc <br /> Sistemas</h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(4)}>

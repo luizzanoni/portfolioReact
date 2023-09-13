@@ -8,7 +8,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_fpo6ij4', 'template_18il508', form.current, 'ZFVLvPlychK45coBG')
+    emailjs.sendForm('kkkkk', 'kkkk', form.current, 'kkkkk')
     e.target.reset()
   };
   return (
@@ -21,43 +21,33 @@ const Contact = () => {
           <h3 className="contact__title">Talk me to</h3>
 
           <div className="contact__info">
-
             <div className="contact__card">
               <i className="bx bx-mail-send contact__card-icon"></i>
-
               <h3 className="contact__card-title">E-mail</h3>
               <span className="contact__card-data">luizzanoni47@gmail.com</span>
-
               <a href="mailto:luizzanoni47@gmail.com" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
             </div>
 
             <div className="contact__card">
               <i className="bx bxl-whatsapp contact__card-icon"></i>
-
               <h3 className="contact__card-title">WhatsApp</h3>
               <span className="contact__card-data">(49) 9 8810-7337</span>
-
               <a href="https://wa.me/5549988107337" className="contact__button">Call me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
             </div>
 
             <div className="contact__card">
               <i className="bx bxl-instagram contact__card-icon"></i>
-
               <h3 className="contact__card-title">Instagram</h3>
               <span className="contact__card-data">luiz.gzanoni</span>
-
               <a href="https://www.instagram.com/luiz.gzanoni/" className="contact__button">Follow me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
             </div>
 
             <div className="contact__card">
               <i className="bx bxl-github contact__card-icon"></i>
-
               <h3 className="contact__card-title">Github</h3>
               <span className="contact__card-data">luizzanoni</span>
-
               <a href="https://github.com/luizzanoni" className="contact__button">Look my projects <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
             </div>
-
           </div>
         </div>
 
@@ -79,7 +69,7 @@ const Contact = () => {
               <label className="contact__form-tag">Projeto</label>
               <textarea name="project" cols="30" rows="10" className="contact__form-input" placeholder='Conte-me sobre seu projeto'></textarea>
             </div>
-
+            
             <button className="button__contact button--flex--contact">
               Envie uma mensagem!
               <svg

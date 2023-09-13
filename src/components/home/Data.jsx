@@ -57,10 +57,9 @@ export const Data = () => {
 
       <h3 className="home__subtitle">Software Developer</h3>
       <p className="home__description">
-        Entusiasmado por tecnologia e inovação, iniciei o mundo da programação em Python
-        e desenvolvendo aplicações para aprender mais sobre o mundo dos PCs. Com o passar 
-        do tempo comecei a estudar React e JS. Atualmente atuo como programador 
-        Back-End utilizando C# e MVC, avançando aos poucos como programador FullStack.
+        Entusiasmado por tecnologia e inovação, ingressei no mundo da programação em Python para desenvolver aplicações 
+        e aprender mais sobre o desenvolvimento. Com o tempo, comecei a estudar React, NodeJS e JavaScript. Atualmente, 
+        com alguns anos de experiência atuo como programador FullStack utilizando C#, VB .Net e MVC.
       </p>
 
       <a href="#contact" className="button button--flex">

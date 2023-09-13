@@ -19,11 +19,9 @@ const Footer = () => {
           <li>
             <a href="#contact" className="footer__link">Contatos</a>
           </li>
-
         </ul>
 
         <div className="footer__social">
-
           <a href="https://www.instagram.com/luiz.gzanoni/" className="footer__social-link" target="noreferrer">
             <i class="bx bxl-instagram"></i>
           </a>
@@ -43,7 +41,6 @@ const Footer = () => {
           <a href="https://twitter.com/luiz_gzanoni" className="footer__social-link" target="noreferrer">
             <i class="bx bxl-twitter"></i>
           </a>
-
         </div>
 
         <span className='footer__copy'>

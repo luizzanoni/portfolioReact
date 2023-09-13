@@ -17,9 +17,9 @@ export const About = () => {
           <Info />
 
           <p className="about__description">
-            Considero-me uma pessoa proativa com fome de conhecimento, sempre buscando melhorar 
-            meu nível técnico e pessoal, gosto muito de ensinar pessoas que estão no início da carreira, 
-            então, no que eu puder ajudar, mesmo que seja pouco, já fico extramente feliz.
+            Considero-me uma pessoa proativa, com sede de conhecimento e sempre buscando aprimorar meu nível 
+            técnico e pessoal. Gosto de aprender e de compartilhar meu conhecimento com pessoas que estão no início da carreira. 
+            Por isso, fico extremamente feliz em poder ajudar, mesmo que seja de forma pequena.
           </p>
 
           <a download="" href={CV} className="button button--flex">

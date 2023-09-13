@@ -10,7 +10,7 @@ const Qualification = () => {
   return (
     <section className="qualification section">
       <h2 className="section__title">Qualificações</h2>
-      <span className="section__subtitle">My personel journey</span>
+      <span className="section__subtitle">(Clique para acessar Educação/Qualificações)</span>
 
       <div className="qualification__container container">
         <div className="qualification__tabs">
@@ -28,9 +28,7 @@ const Qualification = () => {
         </div>
 
         <div className="qualification__sections">
-
           <div className={toggleState === 1 ? "qualification__content qualification__content-active" : "qualification__content"}>
-
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Inglês - Avançado</h3>
@@ -39,7 +37,6 @@ const Qualification = () => {
                   <i className="uil uil-calendar-alt"></i> 2010 - 2017
                 </div>
               </div>
-
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
@@ -69,7 +66,6 @@ const Qualification = () => {
                   <i className="uil uil-calendar-alt"></i> 2014-2014
                 </div>
               </div>
-
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
@@ -93,24 +89,20 @@ const Qualification = () => {
 
             <div className="qualification__data">
               <div>
-
                 <h3 className="qualification__title">Ciências da Computação - Bacharel</h3>
                 <span className="qualification__subtitle">UFFS</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2021 - Presente
                 </div>
               </div>
-
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
             </div>
-
           </div>
 
           <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
-
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">DPO & LGPD na Prática</h3>
@@ -149,7 +141,6 @@ const Qualification = () => {
                   <i className="uil uil-calendar-alt"></i>38 Horas
                 </div>
               </div>
-
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
@@ -170,7 +161,6 @@ const Qualification = () => {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>

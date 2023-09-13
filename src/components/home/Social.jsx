@@ -3,7 +3,6 @@ import React from 'react'
 export const Social = () => {
   return (
     <div className="home__social">
-      
       <a href="https://www.instagram.com/luiz.gzanoni/" className="home__social-icon" target="noreferrer">
         <i class="uil uil-instagram"></i>
       </a>
@@ -23,7 +22,6 @@ export const Social = () => {
       <a href="https://twitter.com/luiz_gzanoni" className="home__social-icon" target="noreferrer">
         <i class="uil uil-twitter-alt"></i>
       </a>
-    
     </div>
   )
 }

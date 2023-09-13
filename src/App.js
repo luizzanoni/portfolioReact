@@ -14,7 +14,6 @@ export const App = () => {
   return (
     <>
       <Header />
-
       <main className='main'>
         <Home />
         <About />
@@ -23,7 +22,6 @@ export const App = () => {
         <Qualification />
         <Contact />
       </main>
-
       <Footer />
       <ScrollUp />
     </>

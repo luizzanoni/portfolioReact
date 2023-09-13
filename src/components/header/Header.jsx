@@ -8,12 +8,6 @@ export const Header = () => {
     else header.classList.remove("scroll-header")
   })
   const [toggle, setToggle] = useState(false);
-
-  // alert de button em construção
-  // const toggleTheme = () => {
-  //   alert("Aguarde... Em fase de construção!")
-  // }
-
   return (
     <header className="header">
       <nav className="nav container">
@@ -56,13 +50,6 @@ export const Header = () => {
 
           <i className="uil uil-times nav__close" onClick={() => setToggle((t) => !t)}></i>
         </div>
-
-        {/* <div className="nav__button">
-          <a className="nav__button-icon" onClick={() => toggleTheme()} target="noreferrer">
-            <i class="uil uil-sun"></i>
-          </a>
-        </div> */}
-
         <div className="nav__toggle" onClick={() => setToggle((t) => !t)}>
           <i className="uil uil-apps"></i>
         </div>
